@@ -1,6 +1,7 @@
-FROM ubuntu:trusty
+FROM ubuntu:xenial
 
 MAINTAINER cybermans <cybermans@gmail.com>
+LABEL version 20170822
 
 RUN mkdir -p /opt/couchpotato
 RUN mkdir -p /config
