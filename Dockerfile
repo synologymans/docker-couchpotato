@@ -1,7 +1,7 @@
 FROM ubuntu:xenial
 
 MAINTAINER cybermans <cybermans@gmail.com>
-LABEL version 20170903
+LABEL version 20180313
 
 RUN mkdir -p /opt/couchpotato
 RUN mkdir -p /config
